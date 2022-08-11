@@ -4,10 +4,10 @@
 select N,
     if(P is null, 'Root',
        if (
-           N in (select distinct p from bst)
+           N in (select distinct P from bst)
        ,'Inner','Leaf'))
 from bst
-order by n
+order by N
 ```
 
 
