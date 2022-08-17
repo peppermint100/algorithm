@@ -22,4 +22,3 @@ for i in range(size):
 
     if sum == 0:
         print("YES")
-    
