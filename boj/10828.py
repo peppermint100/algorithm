@@ -4,7 +4,7 @@ size = int(sys.stdin.readline())
 
 stack = [] 
 
-for i in range(1, size):
+for i in range(1, size+1):
     t = sys.stdin.readline().split()
     command = t[0]
     
