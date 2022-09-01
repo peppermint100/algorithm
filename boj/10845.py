@@ -1,6 +1,6 @@
 import sys
 
-s = open("10845input.txt", "rt") 
+s = open("10845_input.txt", "rt") 
 
 size = int(s.readline().strip())
 q = []
