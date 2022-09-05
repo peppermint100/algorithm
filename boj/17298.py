@@ -13,6 +13,8 @@ for i in range(size):
         else:
             st.append(i)
             break
+
+    print("st = ", st)
     
     if not st:
         st.append(i)
